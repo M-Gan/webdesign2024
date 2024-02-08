@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="Stephen Herd">
+  <link rel="stylesheet" type="text/css" href="Creating%20HTML%20Lists_files/normalize.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="Creating%20HTML%20Lists_files/w3pro.css" media="screen">
+  <link href="Creating%20HTML%20Lists_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="Creating%20HTML%20Lists_files/base.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="Creating%20HTML%20Lists_files/color.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="Creating%20HTML%20Lists_files/prism.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="Creating%20HTML%20Lists_files/print.css" media="print">
+  <!-- <link rel='stylesheet' type='text/css' href='assets/css/jquery.timepicker.css'> -->
+  <link rel="stylesheet" type="text/css" href="Creating%20HTML%20Lists_files/green.css" media="screen" id="colorScheme">
+  <title>Creating HTML Lists</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="https://mywebtraining.net/assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://mywebtraining.net/assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://mywebtraining.net/assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://mywebtraining.net/assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://mywebtraining.net/assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://mywebtraining.net/assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://mywebtraining.net/assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://mywebtraining.net/assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://mywebtraining.net/assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://mywebtraining.net/assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://mywebtraining.net/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://mywebtraining.net/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://mywebtraining.net/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://mywebtraining.net/assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="Creating%20HTML%20Lists_files/tinymce.min.js"></script>
+  <script src="Creating%20HTML%20Lists_files/tinymce.config.admin.js"></script>
+  <script src="Creating%20HTML%20Lists_files/jquery-3.5.1.min.js"></script>
+<script src="Creating%20HTML%20Lists_files/clipboard.min.js"></script></head>
+
+<body class="d-flex flex-column">
+  <header id="header" class="d-flex justify-content-between flex-wrap theme-header px-4 pt-4 pb-2 no-print">
+    <h1 id="bannerText">My Web Training</h1>
+    <div class="">
+      <h2 id="tagline" class="whiteText"><a href="https://mywebtraining.net/profile.php">Maria&nbsp;Gan</a></h2>
+      	<form id="logoutButton" action="index.php" method="post">
+		<button name="logout" class="btn theme-navlink no-print" title="Logout Button">Logout</button>
+	</form>    </div>
+</header>
+    <dialog id="loginModal" class="theme-light">
+    <p class="theme-light">Current members please login.</p>
+    <form method="post" action="index.php" class="left">
+      <p class="theme-light">
+        <label for="Username"><strong>Username:</strong></label><br>
+        <input type="text" name="Username" id="Username" size="25" required="">
+              </p>
+      <p class="theme-light">
+        <label for="Password"><strong>Password:</strong></label><br>
+        <input type="Password" name="Password" id="Password" value="" size="25" required="">
+              </p>
+      <p class="theme-light">
+        <input type="checkbox" name="userAgreement" id="userAgreement" required="" checked="checked">&nbsp;<label for="userAgreement">I have read and agree</label> to the website <a href="https://mywebtraining.net/privacy.php">Privacy Policy</a> and <a href="https://mywebtraining.net/policies.php">Terms of Use</a>.
+      </p>
+      <p class="theme-light">
+        <input type="submit" name="login" value="Login" class="btn round-large small theme-dk1 left">
+        <button type="button" class="btn round-large small theme-dk1 right hideLoginModal" onclick="closeLogin()" data-dismiss="modal">Close</button>
+      </p>
+    </form>
+    <p class="theme-light">Need help logging in? <a href="https://mywebtraining.net/recover.php">Password Recover</a></p>
+  </dialog>
+<main class="container-md p-4 wide">	
+	<div class="row justify-content-center">
+		<div class="container-fluid col-md-3 d-flex justify-content-center no-print">
+				<div class="mt-2 mx-auto">
+		<a href="https://mywebtraining.net/profile.php?memberID=17">
+			<img src="Creating%20HTML%20Lists_files/17-20200326111128-Patti_Burks.jpg" alt="PATTI BURKS picture" id="profilePic" class="img-fluid rounded-circle" title="Click to view member profile.">
+			<p class="responsiveSize">PATTI BURKS<br>
+			Web Development</p>
+		</a>
+	</div>
+		</div>
+		<article class="col-md-9">
+				<h3>Creating HTML Lists</h3>
+	<p>There are 3 types of lists that can be created with HTML elements: 
+an unordered or bulleted list, an ordered (numbered) list, or a 
+description list which places the term on the left margin and indents 
+the description.</p>
+<table><caption>List Elements</caption>
+<tbody>
+<tr>
+<td><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">&gt;</span></span></code></td>
+<td>Indicates the beginning of an ordered (numbered or lettered) list.</td>
+</tr>
+<tr>
+<td><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span></code></td>
+<td>Indicates the beginning of an unordered (bulleted) list.</td>
+</tr>
+<tr>
+<td><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span></code></td>
+<td>Indicates a new list item.</td>
+</tr>
+<tr>
+<td><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dl</span><span class="token punctuation">&gt;</span></span></code></td>
+<td>Indicates the beginning of a description list.</td>
+</tr>
+<tr>
+<td><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dt</span><span class="token punctuation">&gt;</span></span></code></td>
+<td>Indicates a new description list term</td>
+</tr>
+<tr>
+<td><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dd</span><span class="token punctuation">&gt;</span></span></code></td>
+<td>Indicates a new description list description and indents the text.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Everything within an <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">&gt;</span></span></code> or <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span></code> tag must be contained within an <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span></code> element.</li>
+<li>The <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span></code> element may contain anything - text, images, other html tags, nested lists, etc.</li>
+<li>To start numbering (or lettering) a list with something other than the default, add the <code class=" language-markup">value="x"</code> attribute to the <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">&gt;</span></span></code> tag where x is the starting value of the list.</li>
+<li>Everything within a <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dl</span><span class="token punctuation">&gt;</span></span></code> element must be contained within a <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dt</span><span class="token punctuation">&gt;</span></span></code> or <code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dd</span><span class="token punctuation">&gt;</span></span></code> element</li>
+<li>Nested lists are automatically indented from the parent element</li>
+</ul>
+<h4>Sample Lists</h4>
+<p><iframe src="Creating%20HTML%20Lists_files/a.htm" allowfullscreen="allowfullscreen" width="100%" height="300" frameborder="0"></iframe></p>
+<h3>Additional List styles</h3>
+<p>list-style-type: changes the default style of the bullet for unordered lists</p>
+<p>
+<script src="Creating%20HTML%20Lists_files/index" async=""></script><iframe src="Creating%20HTML%20Lists_files/a_002.htm" id="JSFEMB_19761" sandbox="allow-modals allow-forms allow-same-origin allow-scripts allow-popups allow-top-navigation-by-user-activation allow-downloads" allow="midi; geolocation; microphone; camera; display-capture; encrypted-media;" width="100%" height="479.20001220703125" frameborder="0"></iframe>
+</p>
+<p>More <a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_ol_list-style-type" target="_blank">examples of list styles at W3Schools.com</a>.</p>
+			<p>Tags: html, list</p>
+		</article>
+	</div> <!-- close container div -->
+	<label for="contentCopy" class="hidden">
+<textarea id="contentCopy" class="hidden" aria-hidden="true" disabled="disabled">
+	&lt;h3&gt;Creating HTML Lists&lt;/h3&gt;
+	&lt;p&gt;There are 3 types of lists that can be created with HTML 
+elements: an unordered or bulleted list, an ordered (numbered) list, or a
+ description list which places the term on the left margin and indents 
+the description.&lt;/p&gt;
+&lt;table&gt;&lt;caption&gt;List Elements&lt;/caption&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;ol&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Indicates
+ the beginning of an ordered (numbered or lettered) list.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;ul&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Indicates
+ the beginning of an unordered (bulleted) list.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;li&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Indicates
+ a new list item.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;dl&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Indicates
+ the beginning of a description list.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;dt&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Indicates
+ a new description list term&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;dd&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Indicates
+ a new description list description and indents the text.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Everything within an &lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;ol&gt;&lt;/code&gt;
+ or &lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;ul&gt;&lt;/code&gt;
+ tag must be contained within an &lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;li&gt;&lt;/code&gt;
+ element.&lt;/li&gt;
+&lt;li&gt;The &lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;li&gt;&lt;/code&gt;
+ element may contain anything - text, images, other html tags, nested 
+lists, etc.&lt;/li&gt;
+&lt;li&gt;To start numbering (or lettering) a list with something other 
+than the default, add the &lt;code 
+class="language-markup"&gt;value="x"&lt;/code&gt; attribute to the 
+&lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;ol&gt;&lt;/code&gt;
+ tag where x is the starting value of the list.&lt;/li&gt;
+&lt;li&gt;Everything within a &lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;dl&gt;&lt;/code&gt;
+ element must be contained within a &lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;dt&gt;&lt;/code&gt;
+ or &lt;code 
+class="language-markup"&gt;&lt;var&gt;&lt;&lt;/var&gt;dd&gt;&lt;/code&gt;
+ element&lt;/li&gt;
+&lt;li&gt;Nested lists are automatically indented from the parent 
+element&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Sample Lists&lt;/h4&gt;
+&lt;p&gt;&lt;iframe 
+src="//jsfiddle.net/sherd/78mbnusd/embedded/html,result/dark/" 
+width="100%" height="300" frameborder="0" 
+allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;Additional List styles&lt;/h3&gt;
+&lt;p&gt;list-style-type: changes the default style of the bullet for 
+unordered lists&lt;/p&gt;
+&lt;p&gt;
+&lt;script src="//jsfiddle.net/sherd/1z28mjsc/embed/html,result/dark/" 
+async=""&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;More &lt;a 
+href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_ol_list-style-type"
+ target="_blank"&gt;examples of list styles at 
+W3Schools.com&lt;/a&gt;.&lt;/p&gt;</textarea>
+</label></main>
+  <footer class="mt-auto theme-dk2 text-center p-2">
+    <p>My Web Training<br>
+      Copyright © 2006-<span id="year">2024</span></p>
+    <p><a href="https://mywebtraining.net/privacy.php" class="w3-hover-text-theme">Privacy Policy</a> | <a href="https://mywebtraining.net/policies.php" class="w3-hover-text-theme">Terms of Use</a></p>
+  </footer>
+
+  <script src="Creating%20HTML%20Lists_files/prism.js"></script>
+  <script src="Creating%20HTML%20Lists_files/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="Creating%20HTML%20Lists_files/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="Creating%20HTML%20Lists_files/functions.js" defer="defer"></script>
+  <div id="pageRefresh"></div>
+
+  
+
+</body></html>

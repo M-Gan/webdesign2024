@@ -1,0 +1,34 @@
+:root {
+	--theme-lt2: #50af50; /* 50% */
+  --theme-lt1: #408c40; /* 40% */
+  --theme: #2f6a31; /* 30% */
+  --theme-dk1: #1f4720; /* 20% */
+  --theme-dk2: #102310; /* 10% */
+}
+
+.theme-lt2 {color:#000; background-color: #50af50}
+.theme-lt1 {color:#000; background-color: #408c40}
+.theme-dk1 {color:#fff; background-color: #1f4720}
+.theme-dk2 {color:#fff; background-color: #102310}
+.theme-dk1:hover {color:#000; background-color: #50af50}
+.theme-navlink {color:#fff; background-color: #1f4720}
+.theme-navlink:hover {color:#000; background-color: silver}
+.theme-header {color:#fff; background-color: #1f4720}
+
+.theme-light {color:#000; background-color:#f4faf4}
+.theme-dark {color:#fff; background-color:#265728}
+.theme-action {color:#fff; background-color:#265728}
+
+.theme {color:#fff; background-color: #2f6a31}
+.text-theme {color: #2f6a31}
+.banner-theme {color: #50af50}
+.border-theme {border-color: #2f6a31}
+.border-theme-lt {border-color: #50af50}
+
+.hover-theme:link {color:#fff; background-color: #2f6a31}
+.hover-theme:visited {color:#fff; background-color: #2f6a31}
+.hover-theme:hover {color:#000; background-color: silver}
+.hover-text-theme:hover {color: #2f6a31}
+.hover-text-theme-lt:hover {color: #50af50}
+.hover-border-theme:hover {border-color: #2f6a31}
+

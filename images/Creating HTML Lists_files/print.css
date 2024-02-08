@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#college {
+  text-align: left;
+  color: #000000;
+}
+#website {
+  display: none;
+}
+#instructor {
+  text-align: right;
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+  font-size: medium;
+  clear: both;
+  margin: 10px auto;
+}
+p {
+  line-height: 1.25;
+}
+
+#switcher,
+#nav,
+#mastalign,
+#foot,
+form,
+input {
+  display: none;
+}
+p.print {
+  min-height: 40%;
+}
+table {
+  width: 98%;
+}
+table,
+tr,
+td {
+  border: thin solid black;
+}
+.heading {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  height: 50px;
+  width: 98%;
+  clear: both;
+}
+.clearContent {
+  clear: both;
+}
+#content {
+  position: relative;
+  background-color: #ffffff;
+  top: 20px;
+  left: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border-width: 0;
+  display: block;
+  clear: both;
+}
+
+.student {
+  text-align: left;
+  color: #000000;
+  float: left;
+}
+
+#content_ecampus {
+  top: 10px;
+  width: 98%;
+}
+.no-print {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+
+.pagebreak {
+  page-break-after: always;
+}

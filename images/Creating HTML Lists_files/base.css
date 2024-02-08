@@ -1,0 +1,1207 @@
+/* CSS Document */
+a[href ^="http://"],
+a[href ^="https://"] {
+  background: url(images/arrow_grn.png) center right no-repeat;
+  padding-right: 13px;
+  z-index: 10;
+}
+
+a[href ^="http://www.contentquality.com"],
+a[href ^="http://validator.w3.org/check?uri=referer"],
+a[href ^="http://jigsaw.w3.org/css-validator/"] {
+  background: none;
+  padding-right: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100dvh;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100rem;
+}
+
+h1,
+h2,
+h3,
+hr {
+  color: var(--theme);
+}
+
+h3,
+h6 {
+  font-style: oblique;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: "arial rounded mt bold", arial, helvetica, sans-serif;
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+p {
+  padding-left: .75rem;
+  font-size: 1rem;
+}
+
+legend {
+  color: var(--theme);
+}
+
+table {
+  border-color: var(--theme);
+}
+
+/* Links*/
+#rubricButton {
+  text-decoration: underline dotted #900;
+}
+
+p.warning {
+  color: #CC0000;
+}
+
+a:link {
+  color: var(--theme);
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #666666;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--theme);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+nav a:link {
+  color: #ffffff;
+  background-color: transparent;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #fff;
+  background-color: transparent;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+  background-color: silver;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+header a:link {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+header a:visited {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+header a:hover {
+  color: var(--theme-lt);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+footer a:link {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+footer a:visited {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: var(--theme-lt);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a.border:link {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-variant: normal;
+  text-decoration: underline;
+}
+
+a.border:visited {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-variant: normal;
+  text-decoration: underline;
+}
+
+a.border:hover {
+  color: var(--theme-dk1);
+  font-weight: bold;
+  font-variant: normal;
+  text-decoration: underline;
+}
+
+a.tablelink:link {
+  color: var(--theme);
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+a.tablelink:visited {
+  color: var(--theme);
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+a.tablelink:hover {
+  color: var(--theme-dk1);
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+pre {
+  -moz-tab-size: 4;
+  /* Firefox */
+  -o-tab-size: 4;
+  /* Opera 10.6-12.1 */
+  tab-size: 4;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+#loginModal {
+  position: relative;
+  top: 5rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 50;
+}
+
+.profileContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0 auto;
+}
+
+#wordCloud {
+  background-color: lemonchiffon;
+  border-radius: 25px;
+  border: thick var(--theme) double;
+  box-shadow: 5px 5px 5px grey;
+}
+
+table {
+  padding-left: 5px;
+  margin: 10px 10px 20px;
+  width: 100%;
+}
+
+h6 {
+  margin-top: 15px;
+}
+
+.no-border {
+  border: none;
+}
+
+table caption {
+  font-weight: bold;
+  font-size: 1em;
+  color: #000;
+  caption-side: top;
+}
+
+li,
+label,
+dd {
+  padding-left: 5px;
+}
+
+table {
+  padding-left: 5px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+dl {
+  padding-left: 5px;
+}
+
+p.responsiveSize {
+  font-size: 1em;
+}
+
+.inline-container {
+  container-type: inline-size;
+}
+
+.studentCard {
+  font-size: clamp(6cqi, 8cqi, .75rem);
+}
+
+.memberCard {
+  max-width: 300px;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+dt {
+  /* font-family: arial, helvetica, sans-serif; */
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+dt code {
+  font-weight: normal;
+}
+
+th,
+thead {
+  text-align: center;
+  font-weight: bold;
+  padding: .25em .5em;
+}
+
+td {
+  border: 1px solid black;
+  padding: 0.25em 0.5em;
+}
+
+tr.heading {
+  background-color: #ccc;
+  padding: 5px;
+}
+
+table.ro {
+  border-style: none;
+  border-width: thin;
+  min-width: 400px;
+  margin: 10px 10px;
+  float: left;
+}
+
+/* Style the form - display items horizontally */
+.form-inline {
+  display: inline;
+  align-items: center;
+}
+
+.whiteText {
+  /* font-family: arial, helvetica, sans-serif; */
+  color: white;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+#banner_logo {
+  float: left;
+  width: 80%;
+  max-width: 750px;
+  height: auto;
+}
+
+#bannerText {
+  /* font-family: arial, helvetica, sans-serif; */
+  font-size: 2.5rem;
+  line-height: 90%;
+  color: var(--theme-lt2);
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000, 3px 3px 2px #fff, -3px 3px 2px #fff, 3px -3px 2px #fff,
+    -3px -3px 2px #fff;
+  /*	padding: 10px 5px;*/
+}
+
+#tagline {
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+#welcome {
+  position: relative;
+  line-height: 3.5vh;
+  display: inline;
+}
+
+.inlineDisplay {
+  display: inline;
+}
+
+.blockDisplay {
+  display: inline;
+}
+
+#loginButton {
+  z-index: 500;
+}
+
+#toggleMenu {
+  display: block;
+}
+
+#navBar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#navBar a {
+  text-decoration: none;
+}
+
+#mobileNav {
+  position: sticky;
+  top: 2.5em;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#mobileNav a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+#navLinks {
+  display: none;
+}
+
+
+@media only screen and (min-width: 612px) {
+  .profileContainer {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .profileColumn {
+    flex: 1 1 50%;
+  }
+
+  #bannerText {
+    font-size: 3rem;
+  }
+
+  #tagline {
+    font-size: 1.5rem;
+  }
+
+  #welcome {
+    display: block;
+    position: relative;
+    line-height: 3.5vh;
+  }
+
+  #toggleMenu {
+    display: none;
+  }
+
+  #mobileNav {
+    display: none;
+  }
+
+  #navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #navLinks a {
+    /* display: inline-block;
+    width: auto; */
+    text-decoration: none;
+  }
+
+  #logoutButton {
+    align-self: self-end;
+  }
+
+  .studentPics {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .studentPics {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .profileContainer {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .profileColumn {
+    flex: 1 1 25%;
+  }
+
+  #bannerText {
+    font-size: 4rem;
+  }
+
+  #tagline {
+    font-size: 1.75rem;
+  }
+
+  #leftMargin {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    max-width: 15%;
+  }
+
+  .studentPics {
+    max-width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .profileContainer {
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .studentPics {
+    max-width: 20%;
+  }
+}
+
+#switcher {
+  float: right;
+  font-size: 1.5vw;
+  text-align: right;
+}
+
+#banner_pic {
+  float: left;
+  top: 5px;
+  width: 100%;
+  max-width: 750px;
+}
+
+.buttons {
+  background-color: grey;
+  color: grey;
+}
+
+.button1 {
+  background-color: green;
+  color: green;
+}
+
+.button2 {
+  background-color: yellow;
+  color: yellow;
+}
+
+.button3 {
+  background-color: red;
+  color: red;
+}
+
+img {
+  width: auto;
+  height: auto;
+  border-width: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.portalIcon {
+  width: 196px;
+  max-width: 33%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  min-height: 80px;
+}
+
+#heading {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0;
+  display: block;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  max-width: 1200px;
+}
+
+#textarea {
+  padding: 15px;
+  float: left;
+  clear: both;
+}
+
+#foot {
+  clear: both;
+}
+
+fieldset {
+  margin: 1em;
+}
+
+.college {
+  text-align: left;
+  color: #ffffff;
+  margin-left: 20px;
+  float: left;
+}
+
+.instructor {
+  text-align: right;
+  color: #ffffff;
+  margin-right: 20px;
+  float: right;
+}
+
+.error {
+  color: red;
+}
+
+.comment {
+  color: #265728;
+}
+
+.info {
+  background-color: blue;
+  color: white;
+}
+
+.warning {
+  background-color: yellow;
+  color: black;
+}
+
+.success {
+  background-color: green;
+  color: white;
+}
+
+.box {
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+/* These link styles are for the css buttons for theme colors */
+
+a.cssLink {
+  padding: 2px;
+  /* font-family:arial, helvetica, sans-serif; */
+  font-weight: bold;
+}
+
+a.cssLink:focus {
+  color: #000 !important;
+  background-color: #fff !important;
+  text-decoration: underline !important;
+}
+
+button.greyLink {
+  color: #333;
+  background-color: #d7d7d7;
+}
+
+button.redLink {
+  color: #8d1007;
+  background-color: #d7d7d7;
+}
+
+button.greenLink {
+  color: #265728;
+  background-color: #d7d7d7;
+}
+
+button.blueLink {
+  color: #20295b;
+  background-color: #d7d7d7;
+}
+
+a.greyLink:link {
+  color: #333;
+  background-color: #d7d7d7;
+  text-decoration: none;
+}
+
+a.greyLink:visited {
+  color: #333;
+  background-color: #d7d7d7;
+  text-decoration: none;
+}
+
+a.greyLink:hover {
+  color: #333;
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+a.redLink:link {
+  color: #8d1007;
+  background-color: #d7d7d7;
+  text-decoration: none;
+}
+
+a.redLink:visited {
+  color: #8d1007;
+  background-color: #d7d7d7;
+  text-decoration: none;
+}
+
+a.redLink:hover {
+  color: #8d1007;
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+a.greenLink:link {
+  color: #265728;
+  background-color: #d7d7d7;
+  text-decoration: none;
+}
+
+a.greenLink:visited {
+  color: #265728;
+  background-color: #d7d7d7;
+  text-decoration: none;
+}
+
+a.greenLink:hover {
+  color: #265728;
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+a.blueLink:link {
+  color: #20295b;
+  background-color: #d7d7d7;
+  text-decoration: none;
+}
+
+a.blueLink:visited {
+  color: #20295b;
+  background-color: #d7d7d7;
+  text-decoration: none;
+}
+
+a.blueLink:hover {
+  color: #20295b;
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -5px;
+  content: url(/templates/css/images/checkmark_24.png);
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -5px;
+  content: url(/templates/css/images/redx_24.png);
+}
+
+.k_iframe iframe {
+  /*    height: 600px;*/
+  /*    max-height: 100%;*/
+  /*    width: 1080px;*/
+  max-width: 100%;
+}
+
+.k_iframe {
+  position: relative;
+  display: block;
+}
+
+div.gallery {
+  height: 200px;
+}
+
+div.galleryCell {
+  display: table-cell;
+  /* Make elements inside the container behave like table cells */
+  height: 200px;
+}
+
+div.galleryCell img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .studentPics {
+  max-width: 20%;
+} */
+
+.evalContainer {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding: 0.5em;
+  min-width: 600px;
+}
+
+.evalLabel {
+  flex-basis: 30%;
+  flex-grow: 2;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 1.5em;
+}
+
+.evalValue {
+  flex-grow: 1;
+}
+
+.registrationForm {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1em;
+}
+
+.registrationLabel {
+  grid-column: 1/2;
+  text-align: right;
+  height: 1.5em;
+  padding-top: 0.5em;
+  font-weight: bold;
+  padding-bottom: 2em;
+}
+
+.registrationInput {
+  grid-column: 2/3;
+  border-radius: 4px;
+}
+
+.editClassForm {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: .2em;
+}
+
+.editClassLabel {
+  text-align: right;
+  height: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  font-weight: bold;
+}
+
+.editClassInput {
+  border-radius: 4px;
+}
+
+.editClassInputHalf {
+  border-radius: 4px;
+  display: inline;
+}
+
+.editClassButton {
+  grid-column: 2/3;
+  border-radius: 4px;
+}
+
+.container3col {
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-gap: 1em;
+}
+
+.container3colequal {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-areas: "column1 column2 column3";
+  grid-gap: 1em;
+}
+
+.container2colequal {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "column1 column2"
+    "column3 column3";
+  grid-gap: 1em;
+  max-width: 98%;
+}
+
+.column1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-area: column1;
+  grid-gap: 1em;
+}
+
+.column2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-area: column2;
+  grid-gap: 1em;
+}
+
+.column3 {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-rows: auto;
+  grid-gap: 1em;
+}
+
+.container3colTasks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.container4col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 3fr;
+  grid-gap: 1em;
+}
+
+.container6col {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 1em;
+  grid-auto-columns: 1fr;
+}
+
+.gridCollapse {
+  grid-gap: 0;
+  width: 100%;
+  max-width: 960px;
+}
+
+#logo {
+  margin: -1em 0 0 1em;
+  max-width: 383px;
+  float: right;
+}
+
+.row1 {
+  grid-column: 1 / span 3;
+}
+
+.row2 {
+  grid-column: 1 / span 2;
+}
+
+.row1All {
+  grid-column: 1 / -1;
+}
+
+.col1 {
+  grid-column: 1/2;
+}
+
+.col1-2 {
+  grid-column: 1/3;
+}
+
+.col2 {
+  grid-column: 2/3;
+}
+
+.col3 {
+  grid-column: 3/4;
+}
+
+.col4 {
+  grid-column: 4/5;
+}
+
+.col5 {
+  grid-column: 5/6;
+}
+
+.col6 {
+  grid-column: 6/7;
+}
+
+img.col4 {
+  grid-column: 4/5;
+  grid-row: 1 / span 2;
+  width: 80%;
+}
+
+aside.col4 {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  width: 80%;
+}
+
+#submit {
+  grid-column: 2/3;
+  height: 2em;
+}
+
+input[type="checkbox"] {
+  justify-self: start;
+}
+
+.no-bullet {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+form.no-grid {
+  display: inline;
+}
+
+/* Schedule specific styles */
+.upperRight {
+  float: right;
+  position: relative;
+  width: 100px;
+  text-align: right;
+}
+
+.deleted {
+  text-decoration: line-through;
+  color: red;
+}
+
+#scheduleModalContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70em;
+  max-width: 90%;
+  z-index: 50;
+}
+
+#xlistForm label {
+  display: inline-block;
+  width: 10em;
+  max-width: 35%;
+}
+
+#xlistForm>select {
+  display: inline-block;
+  width: 30em;
+  max-width: 62%;
+}
+
+#xlistForm>input[type="text"] {
+  display: inline-block;
+  width: 30em;
+  max-width: 62%;
+}
+
+.mceNoEditor {
+  width: 100%;
+}
+
+#pageRefresh {
+  display: none;
+}
+
+/* Set styles for the code display tabs */
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #292626;
+  color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  color: black;
+}
+
+.exampleSample {
+  float: right;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* portal.php cards */
+.portalCard {
+  max-width: 15rem;
+}
+
+.portalCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.articleImages {
+  border: thin black solid;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quotes {
+  position: relative;
+}
+
+.openQuotes::before {
+  content: open-quote;
+  font: 4rem Georgia, serif;
+  position: absolute;
+  top: -1rem;
+  left: 1.5rem;
+  color: #dee2e6;
+  font-style: oblique;
+}
+
+.openQuotes::after {
+  content: close-quote;
+  visibility: hidden;
+}

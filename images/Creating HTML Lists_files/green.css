@@ -1,0 +1,23 @@
+:root {
+	--theme-lt2: #50af50; /* 50% */
+  --theme-lt1: #408c40; /* 40% */
+  --theme: #2f6a31; /* 30% */
+  --theme-dk1: #1f4720; /* 20% */
+  --theme-dk2: #102310; /* 10% */
+}
+/* var(--lt-red)*/
+.w3-theme-lt2 {color:#000 !important; background-color: var(--theme-lt2) !important}
+.w3-theme-lt1 {color:#000 !important; background-color: var(--theme-lt1) !important}
+.w3-theme-dk1 {color:#fff !important; background-color: var(--theme-dk1) !important}
+.w3-theme-dk2 {color:#fff !important; background-color: var(--theme-dk2) !important}
+
+.w3-theme {color:#fff !important; background-color: var(--theme) !important}
+.w3-text-theme {color: var(--theme) !important}
+.w3-banner-theme {color: var(--theme-lt2) !important}
+.w3-border-theme {border-color: var(--theme) !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color: var(--theme) !important}
+.w3-hover-text-theme:hover {color: var(--theme) !important}
+.w3-hover-text-theme-lt:hover {color: var(--theme-lt2) !important}
+.w3-hover-border-theme:hover {border-color: var(--theme) !important}
+
