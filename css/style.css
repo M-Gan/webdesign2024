@@ -37,3 +37,8 @@ h1, h2, h3, p {
     color: black;
     background-color: aliceblue;
 }
+
+img {
+    width: 180px;
+    height: auto;
+}
