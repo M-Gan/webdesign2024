@@ -42,3 +42,41 @@ img {
     width: 180px;
     height: auto;
 }
+
+.border-class {
+    border-style: groove;
+    border-width: 1px;
+    border-color: blue;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  table caption {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 6px;
+  }
+  
+  tr {
+    border-bottom: thin solid rgb(0,0, 255);
+  }
+  
+  thead tr {
+    background-color: rgb(123, 123, 196);
+    color: cornsilk;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: silver;
+  }
+  
+  tbody tr:hover {
+    background-color: lightgreen;
+  }
