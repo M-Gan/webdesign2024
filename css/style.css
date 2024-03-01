@@ -70,11 +70,11 @@ table {
   
   thead tr {
     background-color: rgb(123, 123, 196);
-    color: cornsilk;
+    color: rgb(14, 13, 13);
   }
   
   tbody tr:nth-child(even) {
-    background-color: silver;
+    background-color: rgb(180, 172, 172);
   }
   
   tbody tr:hover {
