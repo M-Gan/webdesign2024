@@ -51,6 +51,7 @@ img {
 table {
     border-collapse: collapse;
     width: 50%;
+    margin: 10px auto; 
   }
   
   table caption {
