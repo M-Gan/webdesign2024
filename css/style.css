@@ -46,7 +46,7 @@ a:active { color:#0000FF; }  /* selected link */
 
 .topnav a.active {
   background-color: #7f8684;
-  color: #0a1a6bb4(25, 61, 218);
+  color: #0a1a6bb4;
 }
 body {
     background: rgb(150,238,246);
