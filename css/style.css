@@ -1,27 +1,45 @@
 h1 {
-    font-family: algerian ;
-    color: #0a1a6bb4;    
+  font-family: algerian;
+  color: #0a1a6bb4;
 }
 
 p {
-    color: rgb(48, 21, 21);
-    font-family: Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  color: rgb(48, 21, 21);
+  font-family: Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
 }
 
-h2, h3 {
-        color: #0a1a6bb4;
-        font-family:  Georgia, bebas, Roman, Times, serif;
-    }
-    #id1 {
-        border-color: rgb(104, 44, 44);
-        border-width: medium;
-        background-color: rgb(93, 122, 60);
-        padding: 20px;
-    }
-a:link { color:#171a17; } 
-a:visited { color:#4d1919; } /* visited link */
-a:hover { color:#FF00FF; } /* mouse over link */
-a:active { color:#0000FF; }  /* selected link */
+h2,
+h3 {
+  color: #0a1a6bb4;
+  font-family: Georgia, bebas, Roman, Times, serif;
+}
+
+#id1 {
+  border-color: rgb(104, 44, 44);
+  border-width: medium;
+  background-color: rgb(93, 122, 60);
+  padding: 20px;
+}
+
+a:link {
+  color: #171a17;
+}
+
+a:visited {
+  color: #4d1919;
+}
+
+/* visited link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* mouse over link */
+a:active {
+  color: #0000FF;
+}
+
+/* selected link */
 .topnav {
   background-color: #999;
   overflow: hidden;
@@ -48,42 +66,50 @@ a:active { color:#0000FF; }  /* selected link */
   background-color: #7f8684;
   color: #0a1a6bb4;
 }
+
 body {
-    background: rgb(150,238,246);
-background: radial-gradient(circle, rgba(150,238,246,1) 0%, rgba(203,181,139,1) 54%, rgba(203,181,139,1) 100%); 
-  
+  background: rgb(150, 238, 246);
+  background: radial-gradient(circle, rgba(150, 238, 246, 1) 0%, rgba(203, 181, 139, 1) 54%, rgba(203, 181, 139, 1) 100%);
+
 }
-h1, h2, h3, p {
-    text-align: center;
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
 }
-    
+
 .myClass {
-    color: black;
-    background-color: aliceblue;
+  color: black;
+  background-color: aliceblue;
 }
 
 
 
 .border-class {
-    border-style: groove;
-    
-    border-color: blue;
+  border-style: groove;
+
+  border-color: blue;
 }
-  
-  tr {
-    border-bottom: thin solid rgb(0,0, 255);
-  }
-  
-  thead tr {
-    background-color: rgb(123, 123, 196);
-    color: rgb(14, 13, 13);
-  }
-  
-  tbody tr:nth-child(even) {
-    background-color: rgb(180, 172, 172);
-  }
-  
-  tbody tr:hover {
-    background-color: lightgreen;
-  }
-  article{ border: solid medium #092834;}
+
+tr {
+  border-bottom: thin solid rgb(0, 0, 255);
+}
+
+thead tr {
+  background-color: rgb(123, 123, 196);
+  color: rgb(14, 13, 13);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(180, 172, 172);
+}
+
+tbody tr:hover {
+  background-color: lightgreen;
+}
+
+article {
+  border: solid medium #092834;
+}
