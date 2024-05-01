@@ -101,7 +101,7 @@ thead tr {
   background-color: rgb(123, 123, 196);
   color: rgb(14, 13, 13);
 }
-th{white-space:nowrap;}
+
 
 tbody tr:nth-child(even) {
   background-color: rgb(180, 172, 172);
